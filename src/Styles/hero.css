@@ -1,0 +1,25 @@
+.hero {
+  height: 100vh;
+  background: #e2e2da; /* beige / sand */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 72px;
+}
+
+.hero-subtitle {
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  margin-bottom: 2.5rem;
+  color: #111;
+}
+
+.hero-title {
+  font-size: 6rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 1.05;
+  color: #111;
+}
