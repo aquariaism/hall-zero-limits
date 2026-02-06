@@ -37,21 +37,21 @@
 /* RIGHT ICONS */
 .score-icons span {
   margin-left: 18px;
-  font-size: 18px;
+  font-size: 0px;
   color: #111;
 }
 
 .score-icons {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
 }
 
 .score-icons .icon {
-  width: 20px;
-  height: 20px;
+  width: 45px;
+  height: 25px;
   fill: none;
-  stroke: #111;
-  stroke-width: 1.6;
+  stroke: #000000;
+  stroke-width: 1.9;
   cursor: pointer;
 }

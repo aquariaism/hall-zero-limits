@@ -17,9 +17,48 @@
 }
 
 .hero-title {
-  font-size: 6rem;
+  font-size: 8rem;
   font-weight: 600;
   letter-spacing: 2px;
   line-height: 1.05;
   color: #111;
 }
+
+.hero-credit {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.credit-logo {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  background: #111;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: lowercase;
+}
+
+.credit-pro1 {
+  font-size: 24px;
+  font-weight: 650;
+  color: #000000;
+  /* letter-spacing: 1px; */
+  text-decoration: underline;
+  text-decoration-color: #9d9d99;
+  text-decoration-thickness: 1.5px;
+  text-underline-position: under;
+}
+.credit-pro2 {
+  font-size: 8px;
+  font-weight: 400;
+  color: #111;
+  /* letter-spacing: 1px; */
+}
+
