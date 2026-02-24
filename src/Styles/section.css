@@ -1,0 +1,25 @@
+/* Black page background area */
+.preview-wrapper {
+  background: #e2e2da;   /* ✅ same as hero */
+  padding: 80px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+/* Centered cinematic block */
+.preview-card {
+  width: 90%;
+  max-width: 1400px;
+  margin: 0 auto;
+  border-radius: 28px;
+  overflow: hidden;
+  background: #000;
+}
+
+/* Image styling */
+.preview-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}

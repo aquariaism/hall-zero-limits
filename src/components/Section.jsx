@@ -1,22 +1,19 @@
+import img1 from "../assets/img1.jpg";
+import img2 from "../assets/img2.jpg";
+import img3 from "../assets/img3.jpg";
+import "../Styles/section.css";
+
 function Section() {
+  const images = [img1, img2, img3];
+
   return (
-    <section
-      style={{
-        height: "100vh",
-        padding: "10vw",
-        background: "#0b0b0b",
-      }}
-    >
-      <h2
-        style={{
-          fontSize: "3rem",
-          fontWeight: "300",
-          maxWidth: "600px",
-        }}
-      >
-        Silence begins where explanations end.
-      </h2>
-    </section>
+    <div className="preview-wrapper">
+      {images.map((img, index) => (
+        <div key={index} className="preview-card">
+          <img src={img} alt={`Preview ${index}`} />
+        </div>
+      ))}
+    </div>
   );
 }
 
