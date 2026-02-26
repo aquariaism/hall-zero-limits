@@ -1,0 +1,52 @@
+.highlights {
+  background: #e2e2da; /* same as main bg */
+  padding: 60px 0 120px 0;
+}
+
+.highlights-header {
+  width: 90%;
+  max-width: 1400px;
+  margin: 0 auto 60px auto;
+}
+
+.highlights-label {
+  font-size: 14px;
+  color: #777;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.highlights h2 {
+  font-size: 44px;
+  line-height: 1.1;
+  font-weight: 600;
+  color: #272727;
+}
+
+.highlights-grid {
+  width: 90%;
+  max-width: 1400px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+}
+
+.highlight-card {
+  border-radius: 28px;
+  overflow: hidden;
+  background: #111;
+}
+
+.highlight-card img {
+  width: 100%;
+  display: block;
+}
+
+.highlight-card video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}

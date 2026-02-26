@@ -1,7 +1,7 @@
 /* Black page background area */
 .preview-wrapper {
   background: #e2e2da;   /* ✅ same as hero */
-  padding: 80px 0;
+  padding: 80px 0 0 0;
   display: flex;
   flex-direction: column;
   gap: 80px;
